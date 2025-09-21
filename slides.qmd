@@ -16,6 +16,11 @@ format:
 ---
 
 # Présentation
+##
+Pour voir ces slides:
+
+![](figures/qr.svg){fig-align="center" width=100%}
+
 ## Contact 
 
 - Mail: [quentin.lambotte@umons.ac.be](mailto:quentin.lambotte@umons.ac.be)
