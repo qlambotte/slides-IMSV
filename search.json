@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "reveal/mru.html#introduction",
+    "href": "reveal/mru.html#introduction",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "reveal/mru.html#observations-expérimentales",
+    "href": "reveal/mru.html#observations-expérimentales",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Observations expérimentales",
+    "text": "Observations expérimentales\n\nQue constates-tu?"
+  },
+  {
+    "objectID": "reveal/mru.html#calcul-de-vitesse-moyenne",
+    "href": "reveal/mru.html#calcul-de-vitesse-moyenne",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Calcul de vitesse moyenne",
+    "text": "Calcul de vitesse moyenne\nFormule de la vitesse moyenne : \\[v_{\\text{moy}}=\\dfrac{\\Delta x}{\\Delta t}=\\dfrac{x(t_1)-x(t_0)}{t_1-t_0}\\]\n\nQue constates-tu?"
+  },
+  {
+    "objectID": "reveal/mru.html#modélisation-du-mru",
+    "href": "reveal/mru.html#modélisation-du-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Modélisation du MRU",
+    "text": "Modélisation du MRU\n\nVitesse constante : \\(v=...\\)\nÉquation de position : \\[x(t)=vt+x_0\\]\n\nCaractéristiques : - Interpolation - Extrapolation"
+  },
+  {
+    "objectID": "reveal/mru.html#caractéristiques-graphiques",
+    "href": "reveal/mru.html#caractéristiques-graphiques",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Caractéristiques graphiques",
+    "text": "Caractéristiques graphiques\n\n\n\n\n\n\nPosition\n\n\n\nVitesse"
+  },
+  {
+    "objectID": "reveal/mru.html#caractéristiques-analytiques",
+    "href": "reveal/mru.html#caractéristiques-analytiques",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Caractéristiques analytiques",
+    "text": "Caractéristiques analytiques\n\n\n\n\n\n\nPosition\n\\[x(t)=vt+x_0\\]\n\n\nVitesse\n\\[v(t)=v\\]"
+  },
+  {
+    "objectID": "reveal/mru.html#comparaison-de-mru",
+    "href": "reveal/mru.html#comparaison-de-mru",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Comparaison de MRU",
+    "text": "Comparaison de MRU\nParcours même sens"
+  },
+  {
+    "objectID": "reveal/mru.html#exercices",
+    "href": "reveal/mru.html#exercices",
+    "title": "Mouvement rectiligne uniforme",
+    "section": "Exercices",
+    "text": "Exercices\n\nExercice 1Exercice 2Exercice 3\n\n\n\n\n\nGraphique vitesse\n\n\n\n\n\n\n\nGraphique position\n\n\n\n\n\n\n\nTrajectoires oiseaux"
+  },
+  {
+    "objectID": "slides.html#contact",
+    "href": "slides.html#contact",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Contact",
+    "text": "Contact\n\nMail: quentin.lambotte@umons.ac.be\n\nPréciser l’object de l’email\nRespecter une structure professionnelle dans le corps de l’email\n\nPrise de rendez-vous:\n\nPréciser la raison de la prise de rendez-vous\nPréciser les disponibilités\n\nJe serai indisponible les:\n\nlundis après midis\nmercredis et jeudis matins\nvendredis\n\n\nJe n’accepterai le rendez-vous que si vous participez aux remédiations"
+  },
+  {
+    "objectID": "slides.html#bureau",
+    "href": "slides.html#bureau",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Bureau",
+    "text": "Bureau\n\nBâtiment De Vinci, 2e étage, bureau 2.36 (tout au fond du couloir)\nLe bâtiment De Vinci est sur le campus de Nimy\n\n\nPlan"
+  },
+  {
+    "objectID": "slides.html#a-vous",
+    "href": "slides.html#a-vous",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "A vous!",
+    "text": "A vous!\n\nVous allez répondre à un questionnaire wooclap. Sortez votre smartphone!"
+  },
+  {
+    "objectID": "slides.html#comment-rentabiliser-les-séances-dexercices-1",
+    "href": "slides.html#comment-rentabiliser-les-séances-dexercices-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Comment rentabiliser les séances d’exercices",
+    "text": "Comment rentabiliser les séances d’exercices\n\nAvant = préparer la séance:\n\nétudier la théorie (les cours théoriques précédents)\nfaire les préparations annoncées lors de la séance précédente ou sur moodle\nposer des questions sur le Forum moodle si nécessaire\n\nPendant = venir en séance = y participer activement\n\nprendre note, rester concentré.e, résoudre les exercices en séance"
+  },
+  {
+    "objectID": "slides.html#comment-rentabiliser-les-séances-dexercices-2",
+    "href": "slides.html#comment-rentabiliser-les-séances-dexercices-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Comment rentabiliser les séances d’exercices",
+    "text": "Comment rentabiliser les séances d’exercices\n\nAprès = prendre du recul:\n\nfaire le point (qu’avons nous fait? qu’ai-je retenu?)\nrefaire des exercices qui posent problème\nréétudier la théorie si nécessaire\n\nAttention! Étudier \\(\\neq\\) relire!\n\nNe pas négliger la théorie face aux exercices: l’un ne va pas sans l’autre!"
+  },
+  {
+    "objectID": "slides.html#remédiations",
+    "href": "slides.html#remédiations",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Remédiations",
+    "text": "Remédiations\n\n(Presque) chaque semaine\nAlternance entre Q/R et séances thématiques\nSur inscription (cf. annonces sur moodle)"
+  },
+  {
+    "objectID": "slides.html#mesures-dun-angle-radians-et-degrés",
+    "href": "slides.html#mesures-dun-angle-radians-et-degrés",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Mesures d’un angle: radians et degrés",
+    "text": "Mesures d’un angle: radians et degrés\n\n\n\n\n\n\n\n\nDans le cercle ci-contre:\n\nla longueur de l’arc \\({AB}\\) vaut \\(|{AB}|=\\dfrac{\\alpha\\cdot\n2\\pi r}{360}\\)\nL’aire du secteur \\(AOB\\) vaut \\(|AOB|=\\dfrac{\\alpha\\cdot \\pi r^2}{360}\\)\n\noù \\(\\alpha\\) est exprimé en degrés.\nUn changement d’unité de mesure permet de rendre ces formules plus simples."
+  },
+  {
+    "objectID": "slides.html#le-radians",
+    "href": "slides.html#le-radians",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Le radians",
+    "text": "Le radians\nDéfinition: Étant donné un angle \\(\\alpha\\) en degrés, sa mesure en radian est la longueur d’un arc intercepté par \\(\\alpha\\) dans un cercle de rayon 1."
+  },
+  {
+    "objectID": "slides.html#le-radians-1",
+    "href": "slides.html#le-radians-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Le radians",
+    "text": "Le radians\nExemples: Tous les cercles suivants sont de rayon 1."
+  },
+  {
+    "objectID": "slides.html#mesures-dun-angle-radians-et-degrés-1",
+    "href": "slides.html#mesures-dun-angle-radians-et-degrés-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Mesures d’un angle: radians et degrés",
+    "text": "Mesures d’un angle: radians et degrés\n\n\n\n\n\n\n\n\nDans le cercle ci-contre:\n\nla longueur de l’arc \\({AB}\\) vaut \\(|{AB}|=\\alpha\\cdot\n  r\\)\nL’aire du secteur \\(AOB\\) vaut \\(|AOB|=\\alpha\\cdot r^2/2\\)\n\noù \\(\\alpha\\) est exprimé en radians."
+  },
+  {
+    "objectID": "slides.html#conversion",
+    "href": "slides.html#conversion",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Conversion",
+    "text": "Conversion\nLa conversion entre les deux unités se fait via une règle de trois. (Remarque: si l’unité de mesure de l’angle n’est pas précisée, alors on utilise le radian)\nExemple: \\(225^\\circ= \\dfrac{5\\pi}{4} (rad)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-1",
+    "href": "slides.html#exercice-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 1",
+    "text": "Exercice 1\n\n\\(225^\\circ=\\dfrac{5\\pi}{4}\\)\n\\(315^\\circ=\\dfrac{7\\pi}{4}\\)\n\\(240^\\circ=\\dfrac{4\\pi}{3}\\)\n\\(210^\\circ=\\dfrac{7\\pi}{6}\\)\n\\(135^\\circ=\\dfrac{3\\pi}{4}\\)\n\\(300^\\circ=\\dfrac{5\\pi}{3}\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-2",
+    "href": "slides.html#exercice-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2",
+    "text": "Exercice 2\n\n\\(\\dfrac{2\\pi}{3}=120^\\circ\\)\n\\(\\dfrac{7\\pi}{6}=210^\\circ\\)\n\\(\\dfrac{5\\pi}{3}=300^\\circ\\)\n\\(\\dfrac{3\\pi}{4}=135^\\circ\\)\n\\(\\dfrac{7\\pi}{4}=315^\\circ\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-3",
+    "href": "slides.html#exercice-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 3",
+    "text": "Exercice 3\n(arrondis au 100e.)\n\n\\(3,145^\\circ=0,05\\) rad\n\\(30,204^\\circ=0,53\\) rad\n\\(-27,543^\\circ=-0,48\\) rad\n\\(131,78^\\circ=2,3\\) rad\n\\(0,69^\\circ=0,012\\) rad\n\\(28,66^\\circ=0,5\\) rad"
+  },
+  {
+    "objectID": "slides.html#le-cercle-trigonométrique-ct",
+    "href": "slides.html#le-cercle-trigonométrique-ct",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Le cercle trigonométrique (CT)",
+    "text": "Le cercle trigonométrique (CT)\nDéfinition: Le cercle trigonométrique est un cercle de rayon 1 centré à l’origine d’un repère (orthonormé). Ce cercle sera utilisé pour représenter les angles orientés, en prenant toujours comme origine le point (1;0)."
+  },
+  {
+    "objectID": "slides.html#exercice-4",
+    "href": "slides.html#exercice-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 4",
+    "text": "Exercice 4"
+  },
+  {
+    "objectID": "slides.html#les-nombres-trigonométriques-dans-le-ct",
+    "href": "slides.html#les-nombres-trigonométriques-dans-le-ct",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Les nombres trigonométriques dans le CT",
+    "text": "Les nombres trigonométriques dans le CT\nDéfinition: Soit \\(\\alpha\\) un angle et \\(P\\) le point correspondant sur le cercle trigonométrique. Alors:\n\nle cosinus de \\(\\alpha\\), noté \\(\\cos(\\alpha)\\), est l’abscisse du point \\(P\\)\nle sinus de \\(\\alpha\\), noté \\(\\sin(\\alpha)\\), est l’ordonnée du point \\(P\\)\nla tangente de \\(\\alpha\\), notée \\(\\tan(\\alpha)\\), vaut \\(\\dfrac{\\sin(\\alpha)}{\\cos(\\alpha)}\\) et vaut l’ordonnée du point d’intersection de \\(OP\\) avec l’axe des tangentes."
+  },
+  {
+    "objectID": "slides.html#les-nombres-trigonométriques-dans-le-ct-1",
+    "href": "slides.html#les-nombres-trigonométriques-dans-le-ct-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Les nombres trigonométriques dans le CT",
+    "text": "Les nombres trigonométriques dans le CT"
+  },
+  {
+    "objectID": "slides.html#les-théorèmes-principaux-de-la-trigonométrie",
+    "href": "slides.html#les-théorèmes-principaux-de-la-trigonométrie",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Les théorèmes principaux de la trigonométrie",
+    "text": "Les théorèmes principaux de la trigonométrie\n\nFormule fondamentale: \\(\\sin^2(x)+\\cos^2(x)=1\\)\n\nVariante: \\(1+\\tan^2(x)=\\dfrac{1}{\\cos^2(x)}\\)\n\nDans un triangle rectangle:\n\nPythagore : \\(a^2=b^2+c^2\\)"
+  },
+  {
+    "objectID": "slides.html#les-théorèmes-principaux-de-la-trigonométrie-1",
+    "href": "slides.html#les-théorèmes-principaux-de-la-trigonométrie-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Les théorèmes principaux de la trigonométrie",
+    "text": "Les théorèmes principaux de la trigonométrie\n\nDans un triangle qcq:\n\nLoi des aires: \\(\\text{Aire}= \\dfrac{ab\\sin(\\gamma)}{2}= \\dfrac{ac\\sin(\\beta)}{2}= \\dfrac{bc\\sin(\\alpha)}{2}\\)\nLoi des sinus: \\(\\dfrac{a}{\\sin(\\alpha)}=\\dfrac{b}{\\sin(\\beta)}=\\dfrac{c}{\\sin(\\gamma)}\\)\nLoi des cosinus:\n\n\n\n\n\n\\(a^2=b^2+c^2-2bc\\cos(\\alpha)\\)\n\\(b^2=a^2+c^2-2ac\\cos(\\beta)\\)\n\\(c^2=a^2+b^2-2ab\\cos(\\gamma)\\)"
+  },
+  {
+    "objectID": "slides.html#symétrie-daxe-y",
+    "href": "slides.html#symétrie-daxe-y",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie d’axe \\(y\\)",
+    "text": "Symétrie d’axe \\(y\\)\n\n\n:::"
+  },
+  {
+    "objectID": "slides.html#symétrie-daxe-y-1",
+    "href": "slides.html#symétrie-daxe-y-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie d’axe \\(y\\)",
+    "text": "Symétrie d’axe \\(y\\)\n\n\n\n\n\nAngles suppplémentaires: leur somme vaut \\(\\pi\\) (=180\\(^\\circ\\))\nPropriété:\n\n\\(\\sin(\\pi-\\alpha)=\\sin(\\alpha)\\)\n\\(\\cos(\\pi-\\alpha)=-\\cos(\\alpha)\\)"
+  },
+  {
+    "objectID": "slides.html#symétrie-daxe-x",
+    "href": "slides.html#symétrie-daxe-x",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie d’axe \\(x\\)",
+    "text": "Symétrie d’axe \\(x\\)\n\n\n:::"
+  },
+  {
+    "objectID": "slides.html#symétrie-daxe-x-1",
+    "href": "slides.html#symétrie-daxe-x-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie d’axe \\(x\\)",
+    "text": "Symétrie d’axe \\(x\\)\n\n\n\n\n\nAngles opposés: leur somme vaut \\(0\\) (=0\\(^\\circ\\))\nPropriété:\n\n\\(\\sin(-\\alpha)=-\\sin(\\alpha)\\)\n\\(\\cos(-\\alpha)=\\cos(\\alpha)\\)"
+  },
+  {
+    "objectID": "slides.html#symétrie-centrale-à-lorigine",
+    "href": "slides.html#symétrie-centrale-à-lorigine",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie centrale à l’origine",
+    "text": "Symétrie centrale à l’origine\n\n\n:::"
+  },
+  {
+    "objectID": "slides.html#symétrie-centrale-à-lorigine-1",
+    "href": "slides.html#symétrie-centrale-à-lorigine-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Symétrie centrale à l’origine",
+    "text": "Symétrie centrale à l’origine\n\n\n\n\n\nAngles antisuplémentaires: leur différence vaut \\(\\pi\\) (=180\\(^\\circ\\))\nPropriété:\n\n\\(\\sin(\\pi+\\alpha)=-\\sin(\\alpha)\\)\n\\(\\cos(\\pi+\\alpha)=-\\cos(\\alpha)\\)"
+  },
+  {
+    "objectID": "slides.html#résumé",
+    "href": "slides.html#résumé",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Résumé",
+    "text": "Résumé\n\nAngles supplémentaires: \\(\\alpha\\) et \\(\\pi-\\alpha\\)\n\n\\(\\sin(\\pi-\\alpha)=\\sin(\\alpha)\\)\n\\(\\cos(\\pi-\\alpha)=-\\cos(\\alpha)\\)\n\nAngles opposés: \\(\\alpha\\) et \\(-\\alpha\\)\n\n\\(\\sin(-\\alpha)=-\\sin(\\alpha)\\)\n\\(\\cos(-\\alpha)=\\cos(\\alpha)\\)\n\nAngles antisupplémentaires: \\(\\alpha\\) et \\(\\pi+\\alpha\\)\n\n\\(\\sin(\\pi+\\alpha)=-\\sin(\\alpha)\\)\n\\(\\cos(\\pi+\\alpha)=-\\cos(\\alpha)\\)"
+  },
+  {
+    "objectID": "slides.html#résumé-1",
+    "href": "slides.html#résumé-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Résumé",
+    "text": "Résumé\n\n\n\n\n\n\n\n\n\n(Bonus) angles complémentaires: la somme vaut \\(\\dfrac{\\pi}{2}(=90^\\circ)\\).\n\n\\(\\sin(\\pi/2-\\alpha)=\\cos(\\alpha)\\)\n\\(\\cos(\\pi/2-\\alpha)=\\sin(\\alpha)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-5",
+    "href": "slides.html#exercice-5",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 5",
+    "text": "Exercice 5"
+  },
+  {
+    "objectID": "slides.html#valeurs-particulières",
+    "href": "slides.html#valeurs-particulières",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Valeurs particulières",
+    "text": "Valeurs particulières"
+  },
+  {
+    "objectID": "slides.html#exercice-6",
+    "href": "slides.html#exercice-6",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 6",
+    "text": "Exercice 6"
+  },
+  {
+    "objectID": "slides.html#les-fonctions-trigonométriques",
+    "href": "slides.html#les-fonctions-trigonométriques",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Les fonctions trigonométriques",
+    "text": "Les fonctions trigonométriques"
+  },
+  {
+    "objectID": "slides.html#exercice-a",
+    "href": "slides.html#exercice-a",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice A",
+    "text": "Exercice A\nRésous graphiquement l’équation \\(\\cos(x)=\\dfrac{1}{2}\\)."
+  },
+  {
+    "objectID": "slides.html#exercice-b",
+    "href": "slides.html#exercice-b",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice B",
+    "text": "Exercice B"
+  },
+  {
+    "objectID": "slides.html#sinxdfrac12",
+    "href": "slides.html#sinxdfrac12",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(\\sin(x)=\\dfrac{1}{2}\\)",
+    "text": "\\(\\sin(x)=\\dfrac{1}{2}\\)"
+  },
+  {
+    "objectID": "slides.html#cosx-1",
+    "href": "slides.html#cosx-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(2\\cos(x)=-1\\)",
+    "text": "\\(2\\cos(x)=-1\\)"
+  },
+  {
+    "objectID": "slides.html#sinx4",
+    "href": "slides.html#sinx4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(2\\sin(x)=4\\)",
+    "text": "\\(2\\sin(x)=4\\)"
+  },
+  {
+    "objectID": "slides.html#tanxsqrt3",
+    "href": "slides.html#tanxsqrt3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(\\tan(x)=\\sqrt{3}\\)",
+    "text": "\\(\\tan(x)=\\sqrt{3}\\)"
+  },
+  {
+    "objectID": "slides.html#sinleftx-dfracpi2right1dfrac12",
+    "href": "slides.html#sinleftx-dfracpi2right1dfrac12",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(\\sin\\left(x-\\dfrac{\\pi}{2}\\right)+1=\\dfrac{1}{2}\\)",
+    "text": "\\(\\sin\\left(x-\\dfrac{\\pi}{2}\\right)+1=\\dfrac{1}{2}\\)"
+  },
+  {
+    "objectID": "slides.html#cosleftxdfrac5pi4rightdfracsqrt22",
+    "href": "slides.html#cosleftxdfrac5pi4rightdfracsqrt22",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(\\cos\\left(x+\\dfrac{5\\pi}{4}\\right)=\\dfrac{\\sqrt{2}}{2}\\)",
+    "text": "\\(\\cos\\left(x+\\dfrac{5\\pi}{4}\\right)=\\dfrac{\\sqrt{2}}{2}\\)"
+  },
+  {
+    "objectID": "slides.html#tanleftx-dfrac5pi6rightsqrt30",
+    "href": "slides.html#tanleftx-dfrac5pi6rightsqrt30",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(3\\tan\\left(x-\\dfrac{5\\pi}{6}\\right)+\\sqrt{3}=0\\)",
+    "text": "\\(3\\tan\\left(x-\\dfrac{5\\pi}{6}\\right)+\\sqrt{3}=0\\)"
+  },
+  {
+    "objectID": "slides.html#tanleft2x-dfracpi4right1",
+    "href": "slides.html#tanleft2x-dfracpi4right1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(\\tan\\left(2x-\\dfrac{\\pi}{4}\\right)=1\\)",
+    "text": "\\(\\tan\\left(2x-\\dfrac{\\pi}{4}\\right)=1\\)"
+  }
+]
