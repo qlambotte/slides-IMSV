@@ -1,0 +1,533 @@
+---
+title: "Introduction mathématique aux sciences de la vie"
+subtitle: "Séance d'exercices du 22/09/25"
+lang: fr
+format: 
+ revealjs:
+      theme: [default,clean.scss]
+
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      
+---
+
+# Présentation
+## Contact 
+
+- Mail: [quentin.lambotte@umons.ac.be](mailto:quentin.lambotte@umons.ac.be)
+    - Préciser l'object de l'email
+    - Respecter une structure professionnelle dans le corps de l'email
+- Prise de rendez-vous:
+    - Préciser la raison de la prise de rendez-vous
+    - Préciser les disponibilités 
+        - Je serai indisponible les:
+            - lundis après midis
+            - mercredis et jeudis matins
+            - vendredis
+    - Je n'accepterai le rendez-vous que si vous participez aux remédiations
+
+
+## Bureau
+
+- Bâtiment De Vinci, 2e étage, bureau 2.36 (tout au fond du couloir)
+- Le bâtiment De Vinci est sur le campus de Nimy
+
+![Plan](figures/nimy.jpg)
+
+## A vous!
+
+- Vous allez répondre à un questionnaire wooclap. Sortez votre smartphone!
+
+# Comment rentabiliser les séances d'exercices
+
+## Comment rentabiliser les séances d'exercices
+- Avant = préparer la séance:
+    - étudier la théorie (les cours théoriques précédents)
+    - faire les préparations annoncées lors de la séance précédente ou sur moodle
+    - poser des questions sur le Forum moodle si nécessaire
+
+- Pendant = venir en séance = y participer activement 
+    - prendre note, rester concentré.e, résoudre les exercices en séance
+
+## Comment rentabiliser les séances d'exercices
+
+- Après = prendre du recul:
+    - faire le point (qu'avons nous fait? qu'ai-je retenu?)
+    - refaire des exercices qui posent problème
+    - réétudier la théorie si nécessaire
+
+    Attention! Étudier $\neq$ relire!
+
+    - Ne pas négliger la théorie face aux exercices: l'un ne va pas sans l'autre!
+
+## Remédiations
+
+- (Presque) chaque semaine
+- Alternance entre Q/R et séances thématiques
+- Sur inscription (cf. annonces sur moodle)
+
+# Trigonométrie
+
+## Mesures d'un angle: radians et degrés
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](figures/fig1.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="60%"}
+Dans le cercle ci-contre:
+
+- la longueur de l'arc ${AB}$ vaut $|{AB}|=\dfrac{\alpha\cdot
+   2\pi r}{360}$
+
+- L'aire du secteur $AOB$ vaut $|AOB|=\dfrac{\alpha\cdot \pi r^2}{360}$
+
+où $\alpha$ est exprimé en degrés.
+
+Un changement d'unité de mesure permet de rendre ces formules plus simples.
+:::
+
+::::
+
+## Le radians
+
+**Définition:**  Étant donné un angle $\alpha$ en degrés, sa mesure en *radian* est la
+longueur d'un arc intercepté par $\alpha$ dans un cercle de rayon 1.
+
+## Le radians
+
+**Exemples:** Tous les cercles suivants sont de rayon 1.
+
+![](figures/fig6.svg){fig-align="center" width=100%}
+
+
+
+## Mesures d'un angle: radians et degrés
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](figures/fig1.svg){fig-align="center" width=100%}
+
+
+
+:::
+
+::: {.column width="60%"}
+Dans le cercle ci-contre:
+
+- la longueur de l'arc ${AB}$ vaut $|{AB}|=\alpha\cdot
+    r$
+
+- L'aire du secteur $AOB$ vaut $|AOB|=\alpha\cdot r^2/2$
+
+où $\alpha$ est exprimé en radians.
+
+:::
+
+::::
+
+## Conversion
+
+La conversion entre les deux unités se fait via une règle de trois. (Remarque: si l'unité de mesure de l'angle n'est pas précisée, alors on utilise le radian)
+
+**Exemple:** $225^\circ= \dfrac{5\pi}{4} (rad)$
+
+## Exercice 1
+
+1. $225^\circ=\dfrac{5\pi}{4}$
+1. $315^\circ=\dfrac{7\pi}{4}$
+1. $240^\circ=\dfrac{4\pi}{3}$
+1. $210^\circ=\dfrac{7\pi}{6}$
+1. $135^\circ=\dfrac{3\pi}{4}$
+1. $300^\circ=\dfrac{5\pi}{3}$
+
+##
+
+## Exercice 2
+1. $\dfrac{2\pi}{3}=120^\circ$
+1. $\dfrac{7\pi}{6}=210^\circ$
+1. $\dfrac{5\pi}{3}=300^\circ$
+1. $\dfrac{3\pi}{4}=135^\circ$
+1. $\dfrac{7\pi}{4}=315^\circ$
+
+##
+
+## Exercice 3
+
+(arrondis au 100e.)
+
+1. $3,145^\circ=0,05$ rad
+1. $30,204^\circ=0,53$ rad
+1. $-27,543^\circ=-0,48$ rad
+1. $131,78^\circ=2,3$ rad
+1. $0,69^\circ=0,012$ rad
+1. $28,66^\circ=0,5$ rad
+
+##
+
+
+## Le cercle trigonométrique (CT)
+
+**Définition:** Le cercle trigonométrique est un cercle de rayon 1 centré à l'origine d'un
+repère (orthonormé). Ce cercle sera utilisé pour représenter les angles orientés, en prenant
+toujours comme origine le point (1;0). 
+
+![](figures/CTT.svg){fig-align="center" width=100%}
+
+
+## Exercice 4
+
+![](figures/fig12.svg){fig-align="center" width=100%}
+
+## Les nombres trigonométriques dans le CT
+
+**Définition:** Soit $\alpha$ un angle et $P$ le point correspondant sur le cercle
+trigonométrique. Alors:
+
+1. le *cosinus* de $\alpha$, noté $\cos(\alpha)$, est l'abscisse du point $P$
+2. le *sinus* de $\alpha$, noté $\sin(\alpha)$, est l'ordonnée du point $P$
+3. la *tangente* de $\alpha$, notée $\tan(\alpha)$, vaut
+$\dfrac{\sin(\alpha)}{\cos(\alpha)}$ et vaut l'ordonnée du point
+d'intersection de $OP$ avec l'axe des tangentes.
+
+## Les nombres trigonométriques dans le CT
+
+![](figures/fig15.svg){fig-align="center" width=100%}
+
+
+
+## Les théorèmes principaux de la trigonométrie
+- Formule fondamentale: $\sin^2(x)+\cos^2(x)=1$
+    - Variante: $1+\tan^2(x)=\dfrac{1}{\cos^2(x)}$
+- Dans un triangle rectangle:
+    - Pythagore : $a^2=b^2+c^2$
+![](figures/soh.svg){fig-align="center" width=100%}
+
+## Les théorèmes principaux de la trigonométrie
+
+- Dans un triangle qcq:
+    - Loi des aires: 
+        $\text{Aire}= \dfrac{ab\sin(\gamma)}{2}= \dfrac{ac\sin(\beta)}{2}= \dfrac{bc\sin(\alpha)}{2}$
+    - Loi des sinus: $\dfrac{a}{\sin(\alpha)}=\dfrac{b}{\sin(\beta)}=\dfrac{c}{\sin(\gamma)}$
+    - Loi des cosinus: 
+       
+:::: {.columns}
+
+::: {.column width="40%"}
+
+1. $a^2=b^2+c^2-2bc\cos(\alpha)$
+2. $b^2=a^2+c^2-2ac\cos(\beta)$
+3. $c^2=a^2+b^2-2ab\cos(\gamma)$
+
+
+:::
+
+::: {.column width="60%"}
+![](figures/qcq.svg){fig-align="center" width=100%}
+
+:::
+
+::::
+
+# Symétries du CT
+
+## Symétrie d'axe $y$
+
+
+<iframe src="https://www.geogebra.org/classic/bqzmb37W?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+
+## Symétrie d'axe $y$
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<iframe src="https://www.geogebra.org/classic/bqzmb37W?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+::: {.column width="40%"}
+
+Angles suppplémentaires: leur somme vaut $\pi$ (=180$^\circ$)
+
+Propriété:
+
+
+- $\sin(\pi-\alpha)=\sin(\alpha)$
+- $\cos(\pi-\alpha)=-\cos(\alpha)$ 
+:::
+
+::::
+## Symétrie d'axe $x$
+
+<iframe src="https://www.geogebra.org/classic/gCmQWvEh?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+
+## Symétrie d'axe $x$
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+<iframe src="https://www.geogebra.org/classic/gCmQWvEh?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+::: {.column width="40%"}
+
+Angles opposés: leur somme vaut $0$ (=0$^\circ$)
+
+Propriété:
+
+
+- $\sin(-\alpha)=-\sin(\alpha)$
+- $\cos(-\alpha)=\cos(\alpha)$ 
+:::
+
+::::
+
+## Symétrie centrale à l'origine
+
+<iframe src="https://www.geogebra.org/classic/tr8gS6jw?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+
+## Symétrie centrale à l'origine
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+<iframe src="https://www.geogebra.org/classic/tr8gS6jw?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+:::
+
+
+::: {.column width="40%"}
+
+Angles antisuplémentaires: leur différence vaut $\pi$ (=180$^\circ$)
+
+Propriété:
+
+
+- $\sin(\pi+\alpha)=-\sin(\alpha)$
+- $\cos(\pi+\alpha)=-\cos(\alpha)$ 
+:::
+
+::::
+
+## Résumé
+
+- Angles supplémentaires: $\alpha$ et $\pi-\alpha$
+    - $\sin(\pi-\alpha)=\sin(\alpha)$
+    - $\cos(\pi-\alpha)=-\cos(\alpha)$ 
+
+- Angles opposés: $\alpha$ et $-\alpha$
+    - $\sin(-\alpha)=-\sin(\alpha)$
+    - $\cos(-\alpha)=\cos(\alpha)$ 
+- Angles antisupplémentaires: $\alpha$ et $\pi+\alpha$
+    - $\sin(\pi+\alpha)=-\sin(\alpha)$
+    - $\cos(\pi+\alpha)=-\cos(\alpha)$ 
+
+## Résumé
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](figures/CTT.svg){fig-align="center" width=100%}
+
+:::
+
+::: {.column width="40%"}
+- (Bonus) angles complémentaires: la somme vaut $\dfrac{\pi}{2}(=90^\circ)$.
+    - $\sin(\pi/2-\alpha)=\cos(\alpha)$
+    - $\cos(\pi/2-\alpha)=\sin(\alpha)$ 
+:::
+::::
+
+## Exercice 5
+
+![](figures/fig18.svg){fig-align="center" width=100%}
+
+## Valeurs particulières
+
+![](figures/fig19.svg){fig-align="center" width=100%}
+
+## Exercice 6
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![](figures/fig34.svg){fig-align="center" width=100%}
+
+:::
+
+::: {.column width="60%"}
+
+![](figures/CTTT.svg){fig-align="center" width=80%}
+
+:::
+::::
+
+## Les fonctions trigonométriques
+
+<iframe src="https://www.geogebra.org/classic/UjjwuM8p?embed" width="100%" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+# Équations
+
+## Exercice A
+
+ Résous graphiquement l'équation $\cos(x)=\dfrac{1}{2}$.
+
+![](figures/fig22-1.svg){fig-align="center" width=80%}
+
+
+## Exercice B
+
+## $\sin(x)=\dfrac{1}{2}$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+## 
+
+## $2\cos(x)=-1$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $2\sin(x)=4$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $\tan(x)=\sqrt{3}$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $\sin\left(x-\dfrac{\pi}{2}\right)+1=\dfrac{1}{2}$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $\cos\left(x+\dfrac{5\pi}{4}\right)=\dfrac{\sqrt{2}}{2}$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $3\tan\left(x-\dfrac{5\pi}{6}\right)+\sqrt{3}=0$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+##
+
+## $\tan\left(2x-\dfrac{\pi}{4}\right)=1$
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/minict.svg){fig-align="right" width=100%}
+
+:::
+::::
+
+##

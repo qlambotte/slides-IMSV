@@ -1,0 +1,75 @@
+\documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{color}
+\usepackage{amsmath}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+ \begin{tikzpicture}[scale=2]
+   \tkzInit[xmax=1.,ymax=1.,xmin=-1. ,ymin=-1,xstep=0.2,ystep=0.2]
+   \tkzDrawY[label=$\sin(\alpha)$, above, font=\Large]
+   % \tkzLabelY[node font=\Large]
+   % \tkzLabelX[node font=\Large]
+   \tkzDrawX[label=$\cos(\alpha)$, right=8pt, font=\Large]
+   % \begin{scope}[dashed]
+   %   \tkzGrid
+   % \end{scope}
+   \tkzDefPoints{0/0/O,1/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPoints{1/1.1/A,1/-1.1/B}
+   \tkzDrawSegment[<-](A,B)
+\tkzLabelSegment[line width=2pt, above, pos=0](A,B){\Large$\tan(\alpha)$}
+\tkzText[draw](0,1.35){\Huge$\alpha=\dfrac{2\pi}{9}$}
+\begin{scope}[xshift=13cm]
+   \tkzInit[xmax=1.,ymax=1.,xmin=-1. ,ymin=-1,xstep=0.2,ystep=0.2]
+   \tkzDrawY[label=$\sin(\alpha)$, above, font=\Large]
+   % \tkzLabelY[node font=\Large]
+   % \tkzLabelX[node font=\Large]
+   \tkzDrawX[label=$\cos(\alpha)$, right=8pt, font=\Large]
+   % \begin{scope}[dashed]
+   %   \tkzGrid
+   % \end{scope}
+   \tkzDefPoints{0/0/O,1/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPoints{1/1.1/A,1/-1.1/B}
+   \tkzDrawSegment[<-](A,B)
+\tkzLabelSegment[line width=2pt, above, pos=0](A,B){\Large$\tan(\alpha)$}
+\tkzText[draw](0,1.35){\Huge$\alpha=\dfrac{4\pi}{5}$}
+\end{scope}
+\begin{scope}[xshift=13cm, yshift=-13cm]
+   \tkzInit[xmax=1.,ymax=1.,xmin=-1. ,ymin=-1,xstep=0.2,ystep=0.2]
+   \tkzDrawY[label=$\sin(\alpha)$, above, font=\Large]
+   % \tkzLabelY[node font=\Large]
+   % \tkzLabelX[node font=\Large]
+   \tkzDrawX[label=$\cos(\alpha)$, right=8pt, font=\Large]
+   % \begin{scope}[dashed]
+   %   \tkzGrid
+   % \end{scope}
+   \tkzDefPoints{0/0/O,1/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPoints{1/1.1/A,1/-1.1/B}
+   \tkzDrawSegment[<-](A,B)
+\tkzLabelSegment[line width=2pt, above, pos=0](A,B){\Large$\tan(\alpha)$}
+\tkzText[draw](0,1.35){\Huge$\alpha=\dfrac{-\pi}{9}$}
+\end{scope}
+\begin{scope}[yshift=-13cm]
+   \tkzInit[xmax=1.,ymax=1.,xmin=-1. ,ymin=-1,xstep=0.2,ystep=0.2]
+   \tkzDrawY[label=$\sin(\alpha)$, above, font=\Large]
+   % \tkzLabelY[node font=\Large]
+   % \tkzLabelX[node font=\Large]
+   \tkzDrawX[label=$\cos(\alpha)$, right=8pt, font=\Large]
+   % \begin{scope}[dashed]
+   %   \tkzGrid
+   % \end{scope}
+   \tkzDefPoints{0/0/O,1/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPoints{1/1.1/A,1/-1.1/B}
+   \tkzDrawSegment[<-](A,B)
+\tkzLabelSegment[line width=2pt, above, pos=0](A,B){\Large$\tan(\alpha)$}
+\tkzText[draw](0,1.35){\Huge$\alpha=\dfrac{-6\pi}{5}$}
+\end{scope}
+\end{tikzpicture}
+\end{document}

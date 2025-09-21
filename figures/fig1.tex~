@@ -1,0 +1,40 @@
+
+    \documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+ \begin{tikzpicture}[scale=1.1]
+   \tkzInit[xmax=6.0,ymax=6.0,xmin=-6.0 ,ymin=-6.0]
+   \begin{scope}[dashed]
+     \tkzGrid
+   \end{scope}
+   \tkzDrawX[label={$x$}]
+   \tkzDrawY[label={$y$}]
+   \tkzLabelX
+   \tkzLabelY
+   \tkzFctPar[line width=2pt,samples=400,domain=0:1]{((900719925474101*t**3 - 2509148363820711*t**2 + 3860228252031858*t - 6755399441055744)/1125899906842624)}{((3602879701896398*t**3 - 16212958658533803*t**2 + 21617278211378397*t - 13510798882111488)/4503599627370496)}
+\tkzFctPar[line width=2pt,samples=400,domain=0:1]{((900719925474098*t**3 - 1351079888211147*t**2 + 2702159776422297*t - 4503599627370496)/1125899906842624)}{(-(1801439850948199*t**3 + 2702159776422297*t**2 + 4503599627370496)/4503599627370496)}
+\tkzFctPar[line width=2pt,samples=400,domain=0:1]{((t - 1)*(3602879701896398*t**2 - 1801439850948199*t + 9007199254740992)/4503599627370496)}{(-(450359962737049*t**3 - 2026619832316722*t**2 + 2702159776422297*t + 2251799813685248)/1125899906842624)}
+\tkzFctPar[line width=2pt,samples=400,domain=0:1]{(3*t*(450359962737050*t**2 - 675539944105575*t + 1351079888211149)/1125899906842624)}{(3*(t - 1)*(225179981368525*t**2 + 562949953421312*t + 562949953421312)/562949953421312)}
+\tkzFctPar[line width=2pt,samples=400,domain=0:1]{((900719925474101*t**3 - 2702159776422300*t**2 + 4053239664633447*t + 3377699720527872)/1125899906842624)}{(3*t*(225179981368525*t**2 - 1013309916158362*t + 1351079888211149)/562949953421312)}
+\tkzFctPar[line width=2pt,samples=400,domain=0:1]{((450359962737049*t**3 - 337769972052789*t**2 + 1013309916158364*t + 5629499534213120)/1125899906842624)}{(-(450359962737049*t**3 + 675539944105575*t**2 - 3377699720527872)/1125899906842624)}
+
+   
+   \tkzDrawPoint[size=10,color=black,fill=black](-4.0,-1.0)
+\tkzDrawPoint[size=10,color=black,fill=black](-2.0,-2.0)
+\tkzDrawPoint[size=10,color=black,fill=black](0.0,-3.0)
+\tkzDrawPoint[size=10,color=black,fill=black](3.0,0.0)
+\tkzDrawPoint[size=10,color=black,fill=black](5.0,3.0)
+
+
+   \tkzText(2,4){\Huge$f$}
+
+\end{tikzpicture}
+\end{document}
+
+    

@@ -1,0 +1,56 @@
+\documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+ \begin{tikzpicture}[scale=1.1]
+
+   \tkzDefPoints{0/0/O,1/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPointBy[rotation= center O angle 40.10704565915763](A)
+   \tkzGetPoint{B}
+   \tkzDrawSegment(O,A)
+   \tkzDrawSegment(O,B)
+   \tkzDrawArc[color=black,line width=2pt](O,A)(B)
+   \tkzDrawPoints(A,B,O)
+   \tkzPicAngle["$\alpha$",draw=black,
+-,angle eccentricity=1.4,
+angle radius=0.5cm](A,O,B)
+\tkzText[below](0.5,0){1cm}
+\tkzText[right](1,0.5){0,7cm}
+\begin{scope}[xshift=4cm]
+\tkzDefPoints{0/0/O,2/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPointBy[rotation= center O angle 40.10704565915763](A)
+   \tkzGetPoint{B}
+   \tkzDrawSegment(O,A)
+   \tkzDrawSegment(O,B)
+   \tkzDrawArc[color=black,line width=2pt](O,A)(B)
+   \tkzDrawPoints(A,B,O)
+   \tkzPicAngle["$\alpha$",draw=black,
+-,angle eccentricity=1.4,
+angle radius=0.5cm](A,O,B)
+\tkzText[below](1,0){2cm}
+\tkzText[right](2,1){1,4cm}
+\end{scope}
+\begin{scope}[xshift=12cm]
+\tkzDefPoints{0/0/O,5/0/A}
+   \tkzDrawCircle[color=black](O,A)
+   \tkzDefPointBy[rotation= center O angle 40.10704565915763](A)
+   \tkzGetPoint{B}
+   \tkzDrawSegment(O,A)
+   \tkzDrawSegment(O,B)
+   \tkzDrawArc[color=black,line width=2pt](O,A)(B)
+   \tkzDrawPoints(A,B,O)
+   \tkzPicAngle["$\alpha$",draw=black,
+-,angle eccentricity=1.4,
+angle radius=0.5cm](A,O,B)
+\tkzText[below](2.5,0){5cm}
+\tkzText[right](5,3){3,5cm}
+\end{scope}
+\end{tikzpicture}
+\end{document}

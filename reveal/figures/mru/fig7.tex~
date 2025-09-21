@@ -1,0 +1,22 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-base}
+\usepackage{array}
+
+\begin{document}
+
+\begin{tikzpicture}
+% Tableau en LaTeX standard avec tkz-text
+
+% Repère quadrillé
+\begin{scope}[yscale=0.5]
+\tkzInit[xmin=0,xmax=10,ymin=0,ymax=150, ystep=10]
+\tkzGrid
+\tkzDrawX[label = $t$ (s)]
+\tkzDrawY[label = $x$ (m)]
+\tkzFct[line width=2pt, domain=0:10]{15*\x}
+
+\end{scope}
+\end{tikzpicture}
+
+\end{document}

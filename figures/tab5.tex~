@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tkz-tab}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{amsmath}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\renewcommand{\arraystretch}{2.6}
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+\begin{tikzpicture}[scale=2]
+  \Large
+   \tkzTabInit[lgt=3,espcl=9]{$x$ /1 , signe de $\tan(x)$ /1}{0,$2\pi$}
+ \end{tikzpicture}
+
+\end{document}

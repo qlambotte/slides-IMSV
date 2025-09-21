@@ -1,0 +1,116 @@
+---
+title: "Mouvement rectiligne uniforme"
+lang: fr
+format: 
+  revealjs:
+    controls: true
+    progress: true
+    center: true
+    slide-number: true
+    chalkboard: true
+---
+
+## Introduction
+
+::: {.content-visible when-format="html"}
+<iframe src="https://www.desmos.com/calculator/fiy6sraekn?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code de l'application](figures/mru/mru-1){fig-align="center" width=40%}
+:::
+
+## Observations expérimentales
+
+![](figures/mru/fig2){width=100%}
+
+**Que constates-tu?**
+
+---
+
+## Calcul de vitesse moyenne
+
+Formule de la vitesse moyenne :
+$$v_{\text{moy}}=\dfrac{\Delta x}{\Delta t}=\dfrac{x(t_1)-x(t_0)}{t_1-t_0}$$
+
+![](figures/mru/fig3){width=100%}
+
+**Que constates-tu?**
+
+---
+
+## Modélisation du MRU
+
+1. Vitesse constante : $v=...$
+2. Équation de position :
+$$x(t)=vt+x_0$$
+
+Caractéristiques :
+- Interpolation
+- Extrapolation
+
+---
+
+## Caractéristiques graphiques {auto-animate=true}
+
+::: {layout-ncol=2}
+### Position
+![](figures/mru/fig4){width=100%}
+
+### Vitesse
+![](figures/mru/fig5){width=100%}
+:::
+
+---
+
+## Caractéristiques analytiques {auto-animate=true}
+
+::: {layout-ncol=2}
+### Position
+$$x(t)=vt+x_0$$
+
+### Vitesse
+$$v(t)=v$$
+:::
+
+---
+
+## Comparaison de MRU
+
+### Parcours même sens
+
+::: {.content-visible when-format="html"}
+<iframe src="https://www.desmos.com/calculator/gdarvn07bq?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code](figures/mru/mru-2){width=40%}
+:::
+
+---
+
+### Parcours sens opposés
+
+::: {.content-visible when-format="html"}
+<iframe src="https://www.desmos.com/calculator/yi0xyjsko3?embed" width=100% height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
+
+::: {.content-visible unless-format="html"}
+![QR-code](figures/mru/mru-3){width=40%}
+:::
+
+---
+
+## Exercices
+
+::: {.panel-tabset}
+### Exercice 1
+![Graphique vitesse](figures/mru/fig6){width=40%}
+
+### Exercice 2
+![Graphique position](figures/mru/fig8){width=40%}
+
+### Exercice 3
+![Trajectoires oiseaux](figures/mru/fig9){width=90%}
+:::
+

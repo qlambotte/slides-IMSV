@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{amsmath}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\renewcommand{\arraystretch}{2.6}
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+ \begin{tikzpicture}[scale=2]
+   \tkzInit[xmin=-7,xmax=7,ymin=-2,ymax=2, ystep=1]
+\tkzAxeY
+\tkzAxeX[trig=6]
+ \tkzDefPoints{0/0.57735026919/S1,0/1.73205080757/S2,0/-0.57735026919/S3,0/-1.73205080757/S4}
+   \tkzDrawPoints[shape=cross,size=12](S1,S2,S3,S4)
+
+\tkzText(0,3){\Large Graphique de $\tan(x)=\dfrac{\sin(x)}{\cos(x)}$}
+
+ \end{tikzpicture}
+
+\end{document}

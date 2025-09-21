@@ -1,0 +1,27 @@
+\documentclass{standalone}
+\usepackage{tkz-fct}
+\usepackage{tkz-euclide}
+\usepackage{amsmath}
+\usepackage{color}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{sansmath}
+\sansmath
+\renewcommand{\arraystretch}{2.6}
+\definecolor{gray75}{gray}{0.75}
+\begin{document}
+ \begin{tikzpicture}[scale=2]
+
+   \tkzInit[xmin=-7,xmax=7,ymin=-1,ymax=1, ystep=0.5]
+\tkzAxeY
+\tkzAxeX[trig=6]
+ \tkzDefPoints{0/0.5/S1,0/0.70710678118/S2,0/0.86602540378/S3}
+   \tkzDrawPoints[shape=cross,size=12](S1,S2,S3)
+
+      \tkzDefPoints{0/-0.5/S1,0/-0.70710678118/S2,0/-0.86602540378/S3}
+   \tkzDrawPoints[shape=cross,size=12](S1,S2,S3)
+
+\tkzText(0,1.5){\Large Graphique de $\sin(x)$}
+
+ \end{tikzpicture}
+
+\end{document}
